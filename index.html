@@ -1,0 +1,59 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<script src="../jquery-3.3.1.min.js"></script>
+<script src="Untitled-2.js" type="text/ecmascript"></script>
+<script type="text/javascript">document.write("<TITLE>【" + remote_ip_info["city"] + "人】天天棋牌自己的挖金秘籍" + "</TITLE>")</script>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>无标题文档</title>
+<style>
+div{ width:200px; height:200px; padding-top:10px; float:left;}
+.d1{ background-color:red;}
+.d2{ background-color:blue;}
+.d3{ background-color:#0F0;}
+.d4{ background-color:#90F;}
+.d5{ background-color:#FF3;}
+</style>
+</head>
+
+<body>
+<div class="d1"></div>
+<div class="d2"></div>
+<div class="d3"></div>
+<div class="d4"></div>
+<div class="d5"></div>
+<p><br />
+  <input class="a1" type="submit" value="按钮1" />
+  <input class="a2" type="submit" value="按钮2" />
+  <input class="a3" type="submit" value="按钮3" />
+  <input class="a4" type="submit" value="按钮4" />
+  <input class="a5" type="submit" value="按钮5" />
+</p>
+<script>
+$(document).ready(function() {
+	$("div").hide()
+	$(".a1").click(function(){
+		$(".d1").show()
+		});
+	$(".a2").click(function(){
+		$(".d2").show()
+		});
+	$(".a3").click(function(){
+		$(".d3").show()
+		});
+	$(".a4").click(function(){
+		$(".d4").show()
+		});
+	$(".a5").click(function(){
+		$(".d5").show()
+		$(".d1").hide()
+		
+		});
+	$("input").dblclick(function(){
+		alert("你双击了")
+		});
+	$("")
+});
+</script>
+</body>
+</html>
