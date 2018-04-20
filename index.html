@@ -10,16 +10,65 @@
 .music{ position:absolute; top:0; right:100px;
 ;}
 .head{ width:700px; height:100%; margin:0 auto;}
-.h1{ font-size:40px;}
+.h1{ font-size:40px; margin:50px;}
+div div{ width:700px; height:300px;}
 </style>
 </head>
 
 <body background="200394876222963723.jpg" style=" background-repeat:no-repeat; background-size:100% 100%; background-attachment:fixed;">
 <div class="head">
 <p><span class="h1">为妳而做的小站</span></p>
+	<br /><br />
+	<div class="d1">
+    1111111
+    </div>
+    <div class="d2">
+	2222222
+    </div>
+    <div class="d3">
+    3333333
+    </div>
+    <div class="d4">
+    4444444
+    </div>
+    <div class="d5">
+    5555555
+    </div>
+	<input type="button" value=" 1 " class="i1" />
+    <input type="button" value=" 2 " class="i2" />
+    <input type="button" value=" 3 " class="i3" />
+    <input type="button" value=" 4 " class="i4" />
+    <input type="button" value=" 5 " class="i5" />
 </div>
 
 <script>
+$("div div").hide()
+$(".d1").show()
+$(".i1").click(
+	function(){
+		$("div div").hide()
+		$(".d1").show()}
+)
+$(".i2").click(
+	function(){
+		$("div div").hide()
+		$(".d2").show()}
+)
+$(".i3").click(
+	function(){
+		$("div div").hide()
+		$(".d3").show()}
+)
+$(".i4").click(
+	function(){
+		$("div div").hide()
+		$(".d4").show()}
+)
+$(".i5").click(
+	function(){
+		$("div div").hide()
+		$(".d5").show()}
+)
 </script>
 <div>
 </div>
