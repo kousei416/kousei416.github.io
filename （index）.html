@@ -1,81 +1,49 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
+<!DOCTYPE html>
+<html>
 <head>
-<script src="https://kousei416.github.io/jquery-3.3.1.min.js"></script>
-<script src="Untitled-2.js" type="text/ecmascript"></script>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>欢迎光临~</title>
+<title>相册</title>
+<meta http-equiv="content-type" content="text/html;charset=utf-8">
+<link type="text/css" rel="stylesheet" href="css/zzsc.css" />
 <style>
-*{ margin:0; padding:0;}
+{
 .music{ position:absolute; top:0; right:100px;
 ;}
-.head{ width:700px; height:100%; margin:0 auto;}
-.h1{ font-size:45px; margin:50px;}
-div div{ width:700px; height:300px;}
-.id{ text-align:right; width:800px; margin:0 auto;}
-input{ margin:10px;}
+	}
 </style>
 </head>
+<body>
 
-<body background="200394876222963723.jpg" style=" background-repeat:no-repeat; background-size:100% 100%; background-attachment:fixed;">
-<div class="head">
-<p><span class="h1">lcs小站</span></p>
-	<br /><br />
-	<div class="d1">
-    <h1>00000000<img src="psb.jpg" /></h1>
-    </div>
-    <div class="d2">
-	<img src="psb(1).jpg" />
-    </div>
-    <div class="d3">
-    <img src="psb(2).jpg" />
-    </div>
-    <div class="d4">
-    <img src="psb(3).jpg" />
-    </div>
-    <div class="d5">
-    <img src="psb(4).jpg" />
-    </div>
-    <br /><br />
-	<input type="button" value=" 1 " class="i1" />
-    <input type="button" value=" 2 " class="i2" />
-    <input type="button" value=" 3 " class="i3" />
-    <input type="button" value=" 4 " class="i4" />
-    <input type="button" value=" 5 " class="i5" />
-</div>
+<section class="cntr">
+	<div class="m10">
+		<div class="mt10 fs1"></div>
+		<div class="slideshowConfig">
+			<table class="mt15 fs08">
+				<tbody>
+						
+				</tobdy>
+			</table>
+		</div>
 
-<script>
-$("div div").hide()
-$(".d1").show()
-$(".i1").click(
-	function(){
-		$("div div").hide()
-		$(".d1").show()}
-)
-$(".i2").click(
-	function(){
-		$("div div").hide()
-		$(".d2").show()}
-)
-$(".i3").click(
-	function(){
-		$("div div").hide()
-		$(".d3").show()}
-)
-$(".i4").click(
-	function(){
-		$("div div").hide()
-		$(".d4").show()}
-)
-$(".i5").click(
-	function(){
-		$("div div").hide()
-		$(".d5").show()}
-)
-</script>
-<div>
+		<div class="cntr mt20">
+			<ul class="pgwSlideshow">
+			<li><img src="images/IMG_1246[1]-01.jpeg" alt=""></li>
+			<li><img src="images/IMG_0944.JPG" alt="" data-large-src="images/IMG_0944.JPG"></li>
+			<li><img src="images/IMG_1073.JPG" alt=""></li>
+			<li><img src="images/IMG_1074.JPG" alt=""></li>
+			<li><img src="images/IMG_1078.JPG" alt=""></li>
+			<li><img src="images/IMG_1176.JPG" alt=""></li>
+			<li><img src="" alt=""></li>
+			<li><img src="" alt=""></li>
+			<li><img src="" alt=""></li>
+			<li><img src="" alt=""></li>
+			</ul>
+		</div>
+	</div> 
+</section>
+<script src="js/jquery.min.js" type="text/javascript"></script>
+
+<div style="text-align:center;margin:50px 0; font:normal 14px/24px 'MicroSoft YaHei';">
 </div>
 <iframe class="music" frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=86 src="//music.163.com/outchain/player?type=2&id=35504047&auto=1&height=66"></iframe>
-<div class="id">by --------lcs</div>
 </body>
-</html> 
+</html>
